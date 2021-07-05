@@ -1,5 +1,6 @@
 body {
 	background-color: #464b4d;
+	background-image: url('backgroundImage.jpg');
 }
 
 #aboutme
@@ -11,6 +12,7 @@ body {
 	font-size: 1.25em;
 	color: white;
 	padding: 0.5em;
+	margin-right: 15em;
 }
 
 #section
