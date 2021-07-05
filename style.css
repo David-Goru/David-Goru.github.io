@@ -1,0 +1,58 @@
+body 
+{
+ 	background-color: black;
+}
+
+#aboutme
+{
+	border: 0.075em solid gray;
+	border-radius: 0.4em;
+	border-style: inset;
+	font-family: "Arial Verdana", Arial, sans-serif;
+	font-size: 1.25em;
+	color: white;
+	padding: 0.5em;
+}
+
+#section
+{
+	font-family: "Arial Verdana", Arial, sans-serif;
+	font-size: 1.25em;
+	color: white;
+	padding: 0.5em;
+}
+
+#section li
+{
+	color: limegreen;
+}
+
+a
+{
+	font-family: "Arial Verdana", Arial, sans-serif;
+	font-size: 1.25em;
+}
+
+a:link
+{
+	color: limegreen;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: green;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: yellow;
+	text-decoration: underline;
+}
+
+a:active
+{
+	color: white;
+	text-decoration: underline;
+}
