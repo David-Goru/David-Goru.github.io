@@ -1,6 +1,10 @@
 body {
-	background-color: #464b4d;
+	background-color: black;
 	background-image: url('backgroundImage.jpg');
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #aboutme
