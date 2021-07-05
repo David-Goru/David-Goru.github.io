@@ -1,6 +1,5 @@
-body 
-{
- 	background-color: black;
+body {
+	background-color: #464b4d;
 }
 
 #aboutme
@@ -31,6 +30,11 @@ a
 {
 	font-family: "Arial Verdana", Arial, sans-serif;
 	font-size: 1.25em;
+}
+
+a.small
+{
+	font-size: 1em;
 }
 
 a:link
