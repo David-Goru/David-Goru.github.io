@@ -1,94 +1,99 @@
 body {
 	background-color: black;
 	background-image: url('backgroundImage.jpg');
-	height: 100%;
+	height: auto;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-#aboutme
-{
+#profile {
+	width: 90%;
+	margin: 1% 5% 1% 5%;
+	display: flex;
+	justify-content: center;
+}
+
+#resume {
+	color: #ECF39E;
+	border-width: 10px;
+	border-radius: 100%;
+	width: 30%;
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: "Arial Verdana", Arial, sans-serif;
+	color: #ECF39E;
+}
+
+#resume-info {
+	font-size: 1em;
+	padding: 0.3em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 0.1em;
+}
+
+#resume a {
+	font-size: 1.25em;
+	text-decoration: none;
+	padding: 0.3em;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 0 5px #31572C;
+	border-radius: 5px;
+	border-width: 0px;
+	background-color: #132A13;
+	text-align: center;
+}
+
+#aboutme {
 	border: 0.075em solid gray;
 	border-radius: 0.4em;
 	border-style: inset;
 	font-family: "Arial Verdana", Arial, sans-serif;
 	font-size: 1.25em;
 	color: white;
+	background-color: black;
 	padding: 0.5em;
-	margin-right: 15%;
-}
-
-.aboutme-index 
-{
-	margin-left: 15%;
-}
-
-#section
-{
-	font-family: "Arial Verdana", Arial, sans-serif;
-	font-size: 1.25em;
-	color: white;
-	padding: 0.5em;
-}
-
-#section li
-{
-	color: limegreen;
-}
-
-#resume {
-	width: 100%;
 	margin: auto;
+	margin-left: 5%;
 }
 
-#resume a {
+#section {
 	font-family: "Arial Verdana", Arial, sans-serif;
-	color: white;
-	font-size: 2em;
-	padding: 0.3em;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-    box-shadow: 0 0 5px darkolivegreen;
-    border-radius: 5px;
-    border-width: 0px;
-	background-color: #003300;
-	text-align: center;
-	width: 6em;
+	font-size: 1.5em;
+	color: #ECF39E;
+	padding: 0.5em;
 }
 
-a
-{
+#section ul {	
+	margin: 0.5%;
+}
+
+#section li {
+	font-size: 0.9em;
+	color: #4F772D;
+}
+
+a {
 	font-family: "Arial Verdana", Arial, sans-serif;
-	font-size: 1.25em;
-}
-
-a.small
-{
-	font-size: 1em;
-}
-
-a:link
-{
-	color: limegreen;
 	text-decoration: none;
+	color: #4F772D;
 }
 
-a:visited
-{
-	color: green;
-	text-decoration: none;
+a.small {
+	font-size: 0.5em;
 }
 
-a:hover
-{
-	color: yellow;
-	text-decoration: underline;
+a:hover {
+	color: #90A955;
 }
 
-a:active
-{
-	color: white;
-	text-decoration: underline;
+a:active {
+	color: #ECF39E;
 }
